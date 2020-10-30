@@ -53,13 +53,6 @@
         </translate>
     </adminhtml>
     <frontend>
-        <!--<layout>-->
-        <!--<updates>-->
-        <!--<ambimax_emailconfig>-->
-        <!--<file>ambimax/emailconfig.xml</file>-->
-        <!--</ambimax_emailconfig>-->
-        <!--</updates>-->
-        <!--</layout>-->
         <translate>
             <modules>
                 <Ambimax_EmailConfig>
