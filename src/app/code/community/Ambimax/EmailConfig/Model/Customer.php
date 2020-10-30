@@ -21,8 +21,10 @@ class Ambimax_EmailConfig_Model_Customer extends Mage_Customer_Model_Customer
             $storeId = $this->_getWebsiteStoreId($this->getSendemailStoreId());
         }
 
-        $this->_sendEmailTemplate($types[$type], self::XML_PATH_REGISTER_EMAIL_IDENTITY,
-            array('customer' => $this, 'back_url' => $backUrl), $storeId);
+        $this->_sendEmailTemplate(
+            $types[$type], self::XML_PATH_REGISTER_EMAIL_IDENTITY,
+            array('customer' => $this, 'back_url' => $backUrl), $storeId
+        );
 
         return $this;
     }
