@@ -71,18 +71,6 @@
         </translate>
     </frontend>
 
-    <!--<crontab>-->
-    <!--<jobs>-->
-    <!--<ambimax_emailconfig_NAME>-->
-    <!--<schedule>-->
-    <!--<config_path>ambimax/emailconfig_NAME/cron_expression</config_path>-->
-    <!--</schedule>-->
-    <!--<run>-->
-    <!--<model>ambimax_emailconfig/cron::CUSTOM_METHOD_NAME</model>-->
-    <!--</run>-->
-    <!--</ambimax_emailconfig_NAME>-->
-    <!--</jobs>-->
-    <!--</crontab>-->
 
     <default>
         <ambimax>
