@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <delphin translate="label">
+            <label>Delphin Amazonia AG</label>
+            <sort_order>600</sort_order>
+        </delphin>
+    </tabs>
+    <sections>
+        <ambimax_requirelogin translate="label" module="ambimax_requirelogin">
+            <class>separator-top</class>
+            <label>Customer</label>
+            <tab>delphin</tab>
+            <sort_order>50</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <email_config>
+                    <label>E-Mail Config</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <send_welcome_email translate="label">
+                            <label>Send Welcome Email?</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>65</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </send_welcome_email>
+                    </fields>
+                </email_config>
+            </groups>
+        </ambimax_requirelogin>
+    </sections>
+</config>

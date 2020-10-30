@@ -1,0 +1,8 @@
+{
+	"name": "ambimax/magento-module-ambimax-emailconfig",
+	"type": "magento-module",
+	"homepage": "http://www.ambimax.de",
+	"require": {
+		"magento-hackathon/magento-composer-installer": "*"
+	}
+}

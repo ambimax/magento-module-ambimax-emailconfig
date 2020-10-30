@@ -5,7 +5,7 @@ This module contains the Email Configuration for the following E-Mails:
 
  - Customer Registration Welcome Email
 
-##Configuration
+## Configuration
 
 The Configuration can be found under:
 
