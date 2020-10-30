@@ -29,17 +29,6 @@
                 <class>Ambimax_EmailConfig_Helper</class>
             </ambimax_emailconfig>
         </helpers>
-        <!--<events>-->
-        <!--<EVENT_NAME>-->
-        <!--<observers>-->
-        <!--<ambimax_emailconfig>-->
-        <!--<type>singleton</type>-->
-        <!--<class>ambimax_emailconfig/observer</class>-->
-        <!--<method>yourCustomMethodThatIsObservingEVENT_NAME</method>-->
-        <!--</ambimax_emailconfig>-->
-        <!--</observers>-->
-        <!--</EVENT_NAME>-->
-        <!--</events>-->
     </global>
     <adminhtml>
         <translate>
