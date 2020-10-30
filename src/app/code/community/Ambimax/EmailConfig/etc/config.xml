@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ambimax_EmailConfig>
+            <version>1.0.0</version>
+        </Ambimax_EmailConfig>
+    </modules>
+
+    <global>
+        <blocks>
+            <ambimax_emailconfig>
+                <class>Ambimax_EmailConfig_Block</class>
+            </ambimax_emailconfig>
+        </blocks>
+
+        <models>
+            <ambimax_emailconfig>
+                <class>Ambimax_EmailConfig_Model</class>
+            </ambimax_emailconfig>
+            <customer>
+                <rewrite>
+                    <customer>Ambimax_EmailConfig_Model_Customer</customer>
+                </rewrite>
+            </customer>
+        </models>
+
+        <helpers>
+            <ambimax_emailconfig>
+                <class>Ambimax_EmailConfig_Helper</class>
+            </ambimax_emailconfig>
+        </helpers>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Ambimax_EmailConfig>
+                    <files>
+                        <default>Ambimax_EmailConfig.csv</default>
+                    </files>
+                </Ambimax_EmailConfig>
+            </modules>
+        </translate>
+    </adminhtml>
+    <frontend>
+        <translate>
+            <modules>
+                <Ambimax_EmailConfig>
+                    <files>
+                        <default>Ambimax_EmailConfig.csv</default>
+                    </files>
+                </Ambimax_EmailConfig>
+            </modules>
+        </translate>
+    </frontend>
+
+
+    <default>
+        <ambimax>
+            <emailconfig>
+                <enabled>0</enabled>
+            </emailconfig>
+        </ambimax>
+    </default>
+
+    <phpunit>
+        <suite>
+            <modules>
+                <Ambimax_EmailConfig/>
+            </modules>
+        </suite>
+    </phpunit>
+</config>
