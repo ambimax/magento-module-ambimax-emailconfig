@@ -2,7 +2,7 @@
 
 class Ambimax_EmailConfig_Model_Customer extends Mage_Customer_Model_Customer
 {
-    public function sendNewAccountEmail($type = 'registered', $backUrl = '', $storeId = '0')
+    public function sendNewAccountEmail($type = 'registered', $backUrl = '', $storeId = '0', $password = null)
     {
         if (!Mage::getStoreConfigFlag('ambimax_requirelogin/email_config/send_welcome_email')) {
             return $this;
